@@ -18,7 +18,7 @@ This treebank was created by Marsida Toska at Uppsala University under the super
 Data available since: UD v2.6
 License: CC BY-SA 4.0
 Includes text: yes
-Genre: nonfiction news, general wiki
+Genre: wiki
 Lemmas: converted from manual
 UPOS: converted from manual
 XPOS: manual native
