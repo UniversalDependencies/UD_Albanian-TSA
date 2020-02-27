@@ -19,13 +19,13 @@ Data available since: UD v2.6
 License: CC BY-SA 4.0
 Includes text: yes
 Genre: wiki
-Lemmas: converted from manual
-UPOS: converted from manual
-XPOS: manual native
-Features: converted from manual
-Relations: converted from manual
+Lemmas: manual native
+UPOS: manual native
+XPOS: not available
+Features: manual native
+Relations: manual native
 Contributors: Toska, Marsida
-Contributing: elsewhere
+Contributing: here
 Contact: m_a_r_c_y_94@hotmail.com
 ===============================================================================
 </pre>
