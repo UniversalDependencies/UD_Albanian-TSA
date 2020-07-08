@@ -8,6 +8,8 @@ The UD Treebank for Standard Albanian (TSA) is a small treebank that consists of
 This treebank was created by Marsida Toska at Uppsala University under the supervision of Joakim Nivre.
 
 # Changelog
+* 2020-07-08 v2.7
+  * Changing POS from SCONJ to PRON for "që", when introducing relative clauses
 
 * 2020-05-15 v2.6
   * Initial release in Universal Dependencies.
