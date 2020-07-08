@@ -10,6 +10,7 @@ This treebank was created by Marsida Toska at Uppsala University under the super
 # Changelog
 * 2020-07-08 v2.7
   * Changing POS from SCONJ to PRON for "që", when introducing relative clauses
+  * Fixing a minor error in the morphological analysis of "lajmet"
 
 * 2020-05-15 v2.6
   * Initial release in Universal Dependencies.
