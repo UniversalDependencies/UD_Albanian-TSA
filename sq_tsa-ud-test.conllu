@@ -234,7 +234,7 @@
 # sent_id = as-test-14
 # text = Shtëpitë që janë vendbanim i personave mbi 70 vjeç nuk mirren parasysh.
 1	Shtëpitë	shtëpi	NOUN	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	11	nsubj	11:nsubj	_
-2	që	që	SCONJ	_	_	4	mark	4:mark	_
+2	që	që	PRON	_	_	4	nsubj	_	_
 3	janë	jam	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	4	cop	4:cop	_
 4	vendbanim	vendbanim	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing	1	acl:relcl	1:acl:relcl	_
 5	i	i	DET	_	Gender=Masc	6	det	6:det	_
@@ -354,7 +354,7 @@
 3	dhe	dhe	CCONJ	_	_	4	cc	4:cc	_
 4	lexojmë	lexoj	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=1|Tense=Pres|Voice=Act	1	conj	1:conj	_
 5	artikujt	artikull	NOUN	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur	4	obj	4:obj	_
-6	që	që	SCONJ	_	_	8	mark	8:mark	_
+6	që	që	PRON	_	_	8	nsubj	_	_
 7	na	ne	PRON	_	Gender=Masc|Number=Plur|PronType=Prs	8	iobj	8:iobj	_
 8	japin	jap	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	5	acl:relcl	5:acl:relcl	_
 9	statistika	statistikë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	8	obj	8:obj	_
@@ -481,12 +481,12 @@
 9	elemente	element	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|NounType=Het|Number=Plur	6	obj	6:obj	_
 10	të	i	DET	_	Gender=Fem	11	det:adj	11:det:adj	_
 11	caktuara	caktuar	ADJ	_	Gender=Masc|Number=Sing|VerbForm=Part	9	amod	9:amod	_
-12	që	që	SCONJ	_	_	13	mark	15:mark	_
+12	që	që	PRON	_	_	13	nsubj	_	_
 13	mund	mund	VERB	_	_	9	acl:relcl	9:acl:relcl	_
 14	të	të	PART	_	_	15	mark	15:mark	_
 15	dëmtojnë	dëmtoj	VERB	_	Aspect=Imp|Mood=Sub|Number=Plur|Person=3|Tense=Pres|Voice=Act	13	xcomp	13:xcomp	_
 16	popullsinë	popullsi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	15	obj	15:obj	_
-17	që	që	SCONJ	_	_	18	mark	18:mark	_
+17	që	që	PRON	_	_	18	nsubj	_	_
 18	shërben	shërbej	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	16	acl:relcl	16:acl:relcl	SpaceAfter=No
 19	.	.	PUNCT	_	_	6	punct	6:punct	_
 
@@ -605,7 +605,7 @@
 7	parcelat	parcelë	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	1	nmod	1:nmod	_
 8	e	i	DET	_	Gender=Fem	9	det	9:det	_
 9	kopshteve	kopsht	NOUN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	7	nmod:poss	7:nmod:poss	_
-10	që	që	SCONJ	_	_	12	mark	12:mark	_
+10	që	që	PRON	_	_	12	nsubj	_	_
 11	janë	jam	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	12	aux	12:aux	_
 12	pastruar	pastroj	VERB	_	VerbForm=Part	1	acl:relcl	1:acl:relcl	_
 13	nga	nga	ADP	_	_	14	case	14:case	_
@@ -883,7 +883,7 @@
 3	të	i	DET	_	Gender=Masc	4	det:adj	4:det:adj	_
 4	vetmit	vetmi	ADJ	_	Gender=Masc|Number=Plur	0	root	0:root	_
 5	anëtarë	anëtar	NOUN	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	4	nmod	4:nmod	_
-6	që	që	SCONJ	_	_	8	mark	8:mark	_
+6	që	që	PRON	_	_	8	nsubj	_	_
 7	kanë	kam	AUX	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	8	aux	8:aux	_
 8	mbijetuar	mbijetoj	VERB	_	VerbForm=Part	4	acl:relcl	4:acl:relcl	_
 9	prej	prej	ADP	_	_	10	case	10:case	_
@@ -1055,7 +1055,7 @@
 7	rëndësinë	rëndësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing	6	obj	6:obj	_
 8	dhe	dhe	CCONJ	_	_	9	cc	9:cc	_
 9	përparësitë	përparësi	NOUN	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur	7	conj	7:conj	_
-10	që	që	SCONJ	_	_	11	mark	11:mark	_
+10	që	që	PRON	_	_	11	nsubj	_	_
 11	ka	ka	VERB	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	7	acl:relcl	7:acl:relcl	_
 12	edukimi	edukim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nsubj	11:nsubj	_
 13	dhe	dhe	CCONJ	_	_	14	cc	14:cc	_
