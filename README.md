@@ -8,6 +8,9 @@ The UD Treebank for Standard Albanian (TSA) is a small treebank that consists of
 This treebank was created by Marsida Toska at Uppsala University under the supervision of Joakim Nivre.
 
 # Changelog
+* 2020-08-03 v2.8
+  * Adding "case" in the morphological features of pronouns and fixing the erronous NOUN-tag of a verb ("ekziston")
+
 * 2020-07-08 v2.7
   * Changing POS from SCONJ to PRON for "që", when introducing relative clauses
   * Fixing a minor error in the morphological analysis of "lajmet"
