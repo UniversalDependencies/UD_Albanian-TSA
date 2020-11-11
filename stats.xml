@@ -21,37 +21,37 @@
     <tag name="AUX">37</tag><!-- jam, kam, u -->
     <tag name="CCONJ">37</tag><!-- dhe, ose, apo, edhe, i -->
     <tag name="DET">116</tag><!-- i, një, e -->
-    <tag name="NOUN">239</tag><!-- njeri, vend, edukim, familje, kohë, mënyrë, person, qytet, shoqëri, anëtar -->
+    <tag name="NOUN">238</tag><!-- njeri, vend, edukim, familje, kohë, mënyrë, person, qytet, shoqëri, anëtar -->
     <tag name="NUM">8</tag><!-- një, 100, 1079, 60, 70 -->
     <tag name="PART">36</tag><!-- të, më, duke, madje, s', nuk, se, t' -->
     <tag name="PRON">53</tag><!-- ai, ky, kjo, disa, i, cili, ajo, ata, gjithë, tjetër -->
     <tag name="PROPN">20</tag><!-- Dju, Shqipëri, Britani, Evropë, Japoni, Kinë, Kore, Mani, Nors, Ruso -->
     <tag name="PUNCT">85</tag><!-- ., ,, ? -->
     <tag name="SCONJ">11</tag><!-- që, se, pasi -->
-    <tag name="VERB">84</tag><!-- kam, mund, dashuroj, formoj, krijoj, kthej, marr, mendoj, ndihmoj, përshkruaj -->
+    <tag name="VERB">85</tag><!-- kam, mund, dashuroj, formoj, krijoj, kthej, marr, mendoj, ndihmoj, përshkruaj -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
   <feats unique="36">
-    <feat name="Aspect" value="Imp" upos="AUX,NOUN,VERB">92</feat><!-- janë, është, kanë, ka, dashuruar, ishte, kishte, mendohet, Dëgjojmë, duhet -->
+    <feat name="Aspect" value="Imp" upos="AUX,VERB">92</feat><!-- janë, është, kanë, ka, dashuruar, ishte, kishte, mendohet, Dëgjojmë, duhet -->
     <feat name="Aspect" value="Perf" upos="VERB">3</feat><!-- krijoi, ndihmuar, rritur -->
     <feat name="Aspect" value="Prog" upos="VERB">1</feat><!-- intensifikuar -->
-    <feat name="Case" value="Abl" upos="NOUN">6</feat><!-- gjinisë, komunikimit, ndryshimesh, person, problemi, shekujve -->
-    <feat name="Case" value="Acc" upos="NOUN,PROPN">101</feat><!-- Shqipëri, drejtimet, mënyrë, shkencat, shtete, tregtinë, Djuin, Japoninë, Korenë, administrim -->
+    <feat name="Case" value="Abl" upos="NOUN,PRON">7</feat><!-- cilitdo, gjinisë, komunikimit, ndryshimesh, person, problemi, shekujve -->
+    <feat name="Case" value="Acc" upos="NOUN,PRON,PROPN">115</feat><!-- e, këtë, Shqipëri, drejtimet, mënyrë, shkencat, shtete, tregtinë, Djuin, Japoninë -->
     <feat name="Case" value="Acc,Nom" upos="NOUN">1</feat><!-- karakteri -->
-    <feat name="Case" value="Dat" upos="NOUN">4</feat><!-- formave, informacionit, përbërësit, përvojave -->
-    <feat name="Case" value="Gen" upos="NOUN,PROPN">56</feat><!-- kohës, marrëdhënieve, njeriut, qytetit, sjelljes, ushqimit, Bashkimit, Evropës, Kinës, Manit -->
-    <feat name="Case" value="Nom" upos="NOUN,PROPN">82</feat><!-- Dashuria, Evolucioni, Ishulli, dramaturgu, Britania, Bujqësia, Buka, Djui, Familja, Forcat -->
+    <feat name="Case" value="Dat" upos="NOUN,PRON">10</feat><!-- i, atyre, formave, informacionit, na, procesit, përbërësit, përvojave, u -->
+    <feat name="Case" value="Gen" upos="NOUN,PRON,PROPN">66</feat><!-- tij, kohës, marrëdhënieve, njeriut, qytetit, saj, sjelljes, ushqimit, Bashkimit, Evropës -->
+    <feat name="Case" value="Nom" upos="NOUN,PRON,PROPN">104</feat><!-- disa, Ata, këto, Dashuria, Evolucioni, Ishulli, Kjo, Ky, ai, dramaturgu -->
     <feat name="Definite" value="Def" upos="NOUN,PROPN">174</feat><!-- Dashuria, Evolucioni, Ishulli, dramaturgu, drejtimet, kohës, marrëdhënieve, njeriut, njerëzit, politikat -->
     <feat name="Definite" value="Ind" upos="NOUN,PROPN">76</feat><!-- Shqipëri, mënyrë, njerëz, shoqëri, shtete, vend, Karakteristikë, administrim, anë, anëtarë -->
-    <feat name="Gender" value="Fem" upos="ADJ,CCONJ,DET,NOUN,PRON,PROPN">296</feat><!-- e, të, një, disa, gjitha, këto, së, Dashuria, Kjo, Shqipëri -->
+    <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,PRON,PROPN">295</feat><!-- e, të, një, disa, gjitha, këto, së, Dashuria, Kjo, Shqipëri -->
     <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,PRON,PROPN">205</feat><!-- i, të, një, Ata, rëndësishëm, tij, Evolucioni, Ishulli, Ky, ai -->
-    <feat name="Mood" value="Ind" upos="AUX,NOUN,VERB">85</feat><!-- janë, është, kanë, ka, ishte, kishte, mendohet, Dëgjojmë, duhet, ekziston -->
+    <feat name="Mood" value="Ind" upos="AUX,VERB">85</feat><!-- janë, është, kanë, ka, ishte, kishte, mendohet, Dëgjojmë, duhet, ekziston -->
     <feat name="Mood" value="Sub" upos="VERB">5</feat><!-- dëmtojnë, kenë, kthehen, ndikojnë, shkruhen -->
     <feat name="NounType" value="Het" upos="NOUN">30</feat><!-- qytetit, shtete, vend, Problemet, Qytetet, Qëndrimet, anketimi, brez, drejtimet, dyqanet -->
     <feat name="Number" value="Plur" upos="ADJ,AUX,DET,NOUN,PRON,PROPN,VERB">179</feat><!-- janë, kanë, disa, këto, Ata, cilat, drejtimet, gjitha, marrëdhënieve, njerëz -->
     <feat name="Number" value="Sing" upos="ADJ,AUX,NOUN,PRON,PROPN,VERB">297</feat><!-- është, ka, e, këtë, rëndësishëm, tij, Dashuria, Evolucioni, Ishulli, Kjo -->
     <feat name="Person" value="1" upos="VERB">3</feat><!-- Dëgjojmë, lexojmë, përmend -->
-    <feat name="Person" value="3" upos="AUX,NOUN,PRON,VERB">90</feat><!-- janë, është, kanë, ka, ishte, kishte, mendohet, Cilat, ai, duhet -->
+    <feat name="Person" value="3" upos="AUX,PRON,VERB">90</feat><!-- janë, është, kanë, ka, ishte, kishte, mendohet, Cilat, ai, duhet -->
     <feat name="Polarity" value="Neg" upos="PART">3</feat><!-- s', nuk -->
     <feat name="Poss" value="Yes" upos="PRON">6</feat><!-- tij, saj, tyre -->
     <feat name="PronType" value="Dem" upos="PRON">14</feat><!-- këto, këtë, Kjo, Ky, ai, atë, kësaj, këtyre -->
@@ -62,11 +62,11 @@
     <feat name="PronType" value="Rel" upos="PRON">1</feat><!-- cilën -->
     <feat name="PronType" value="Tot" upos="PRON">5</feat><!-- gjitha, cilitdo -->
     <feat name="Tense" value="Past" upos="AUX,VERB">20</feat><!-- ishte, kishte, formuan, intensifikuar, krijoi, kërkonin, morën, ndihmuar, nxiti, nënshtruan -->
-    <feat name="Tense" value="Pres" upos="AUX,NOUN,VERB">76</feat><!-- janë, është, kanë, ka, dashuruar, mendohet, Dëgjojmë, duhet, dëmtojnë, ekziston -->
+    <feat name="Tense" value="Pres" upos="AUX,VERB">76</feat><!-- janë, është, kanë, ka, dashuruar, mendohet, Dëgjojmë, duhet, dëmtojnë, ekziston -->
     <feat name="VerbForm" value="Ger" upos="VERB">2</feat><!-- intensifikuar, lëvizur -->
     <feat name="VerbForm" value="Inf" upos="VERB">4</feat><!-- dashuruar, ndihmuar, rritur -->
     <feat name="VerbForm" value="Part" upos="ADJ,AUX,VERB">23</feat><!-- njohur, qenë, aplikuar, arritur, avancuara, bartur, caktuar, caktuara, hapur, interesuar -->
-    <feat name="Voice" value="Act" upos="AUX,NOUN,VERB">78</feat><!-- janë, është, kanë, ka, dashuruar, ishte, kishte, Dëgjojmë, dëmtojnë, ekziston -->
+    <feat name="Voice" value="Act" upos="AUX,VERB">78</feat><!-- janë, është, kanë, ka, dashuruar, ishte, kishte, Dëgjojmë, dëmtojnë, ekziston -->
     <feat name="Voice" value="Pass" upos="VERB">17</feat><!-- mendohet, formuan, intensifikuar, karakterizohet, kthehet, kuptohet, mirren, njihet, nënshtruan, përcaktohet -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
