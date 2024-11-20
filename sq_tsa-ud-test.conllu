@@ -107,7 +107,7 @@
 2	i	i	DET	_	Gender=Masc	3	det	_	_
 3	Manit	Mani	PROPN	_	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod:poss	_	_
 4-5	s'është	_	_	_	_	_	_	_	_
-4	s'	s'	PART	_	Polarity=Neg	6	advmod	_	SpaceAfter=No
+4	s'	s'	PART	_	Polarity=Neg	6	advmod	_	_
 5	është	jam	AUX	_	Aspect=Imp|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	6	cop	_	_
 6	pjesë	pjesë	NOUN	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing	0	root	_	_
 7	e	i	DET	_	Gender=Fem	8	det	_	_
@@ -828,7 +828,7 @@
 # text = Paragjykimet s'i përshtaten me lehtësi informacionit ose përvojave të reja.
 1	Paragjykimet	paragjykim	NOUN	_	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	4	nsubj	_	_
 2-3	s'i	_	_	_	_	_	_	_	_
-2	s'	s'	PART	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
+2	s'	s'	PART	_	Polarity=Neg	4	advmod	_	_
 3	i	i	PRON	_	Case=Dat|Gender=Masc|Number=Sing	4	expl	_	_
 4	përshtaten	përshtat	VERB	_	Aspect=Imp|Mood=Ind|Number=Plur|Person=3|Tense=Pres|Voice=Act	0	root	_	_
 5	me	me	ADP	_	_	6	case	_	_
@@ -857,7 +857,7 @@
 13	burime	burim	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	12	obj	_	_
 14	për	për	ADP	_	_	17	mark	_	_
 15-16	t'i	_	_	_	_	_	_	_	_
-15	të	të	PART	_	_	17	mark	_	SpaceAfter=No
+15	të	të	PART	_	_	17	mark	_	_
 16	i	aj	PRON	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Emp	17	expl	_	_
 17	rritur	rris	VERB	_	Aspect=Perf|Tense=Past|VerbForm=Inf|Voice=Act	12	advcl	_	_
 18	fëmijët	fëmijë	NOUN	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur	17	obj	_	SpaceAfter=No
