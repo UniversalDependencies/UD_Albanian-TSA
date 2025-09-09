@@ -24,6 +24,7 @@ This treebank was created by Marsida Toska at Uppsala University under the super
 Data available since: UD v2.6
 License: CC BY-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: wiki
 Lemmas: manual native
 UPOS: manual native
