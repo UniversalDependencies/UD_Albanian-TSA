@@ -31,7 +31,7 @@
     <tag name="VERB">85</tag><!-- kam, mund, dashuroj, formoj, krijoj, kthej, marr, mendoj, ndihmoj, përshkruaj -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="36">
+  <feats unique="37">
     <feat name="Aspect" value="Imp" upos="AUX,VERB">92</feat><!-- janë, është, kanë, ka, dashuruar, ishte, kishte, mendohet, Dëgjojmë, duhet -->
     <feat name="Aspect" value="Perf" upos="VERB">3</feat><!-- krijoi, ndihmuar, rritur -->
     <feat name="Aspect" value="Prog" upos="VERB">1</feat><!-- intensifikuar -->
@@ -43,6 +43,7 @@
     <feat name="Case" value="Nom" upos="NOUN,PRON,PROPN">104</feat><!-- disa, Ata, këto, Dashuria, Evolucioni, Ishulli, Kjo, Ky, ai, dramaturgu -->
     <feat name="Definite" value="Def" upos="NOUN,PROPN">174</feat><!-- Dashuria, Evolucioni, Ishulli, dramaturgu, drejtimet, kohës, marrëdhënieve, njeriut, njerëzit, politikat -->
     <feat name="Definite" value="Ind" upos="NOUN,PROPN">76</feat><!-- Shqipëri, mënyrë, njerëz, shoqëri, shtete, vend, Karakteristikë, administrim, anë, anëtarë -->
+    <feat name="ExtPos" value="ADV" upos="ADP">1</feat><!-- për -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,PRON,PROPN">295</feat><!-- e, të, një, disa, gjitha, këto, së, Dashuria, Kjo, Shqipëri -->
     <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,PRON,PROPN">205</feat><!-- i, të, një, Ata, rëndësishëm, tij, Evolucioni, Ishulli, Ky, ai -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">85</feat><!-- janë, është, kanë, ka, ishte, kishte, mendohet, Dëgjojmë, duhet, ekziston -->
